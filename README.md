@@ -4,5 +4,5 @@ Python script that takes a sql.txt file, dumps the data from the query to excel 
 ## Instructions
 * Clone the repository
 * Install the modules required
-** module 1
-** modules 2
+*   module 1
+*   modules 2
