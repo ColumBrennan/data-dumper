@@ -38,7 +38,7 @@ def main():
     # Saving
     workbook.close()
 
-    fromaddr = "temp@topflight.ie"
+    fromaddr = "temp@temp.com"
     toaddr = str(sys.argv[2])
 
     msg = MIMEMultipart()
@@ -62,7 +62,7 @@ def main():
 
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login(fromaddr, "temp123$")
+    server.login(fromaddr, "temp123")
     text = msg.as_string()
     server.sendmail(fromaddr, toaddr, text)
     server.quit()
