@@ -4,10 +4,15 @@ Python script that takes a sql.txt file, dumps the data from the query to excel 
 ## Instructions
 * Clone the repository
 * Install the modules required
-*   module 1
-*   modules 2
+*   libpq-dev
+*   python-dev
+*   psycopg2
+*   email
 
 
 ~~~~
-Some code
+sudo apt-get install libpq-dev python-dev
+sudo pip3 install psycopg2
+sudo pip3 install xlsxwriter
+easy_install email
 ~~~~
